@@ -29,7 +29,7 @@ while running:
         window.close()
 
         final = str(count)
-        doneLayout = [[sg.Text("Correct! It took you " + final + " tries to guess the correct number")],
+        doneLayout = [[sg.Text("Correct! It took you " + final + " tries to guess the correct number.")],
                       [sg.Button('Ok')]]
 
         window = sg.Window('Number Guesser', doneLayout)
