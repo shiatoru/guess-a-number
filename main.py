@@ -41,7 +41,7 @@ while running:
         if cur > target:
             window.close()
 
-            greaterLayout = [[sg.Text("Try again. The target is lesser than your number.")],
+            greaterLayout = [[sg.Text("Try again. The target is less than your number.")],
                              [sg.InputText()],
                              [sg.Button('Ok')]]
 
