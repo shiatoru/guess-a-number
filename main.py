@@ -32,7 +32,6 @@ while running:
         doneLayout = [[sg.Text("Correct! It took you " + final + " tries to guess the correct number")],
                       [sg.Button('Ok')]]
 
-        print("Correct! It took you " + final + "tries to guess the correct number")
         window = sg.Window('Number Guesser', doneLayout)
 
         if event in [sg.Button('Ok')]:
